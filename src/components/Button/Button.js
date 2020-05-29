@@ -8,9 +8,10 @@ const Button = styled.button`
   width: ${({ width }) => width || '220px'};
   border: none;
   border-radius: 50px;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 16px;
   text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
 
   /* Lub warunek tak */
   ${({ secondary }) =>

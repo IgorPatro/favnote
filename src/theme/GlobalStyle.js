@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
@@ -20,6 +19,7 @@ const GlobalStyle = createGlobalStyle`
         padding: 0;
         font-family: "Montserrat", sans-serif;
         font-size: 1.6rem; // Happy rems
+        font-weight: regular;
     }
 `;
 
